@@ -1,5 +1,7 @@
 # 🌱 Good Pay - Plataforma de Conversão de Créditos ESG em Cashback
 
+# Victor Icoma - Desenvolvedor
+
 Bem-vindo ao repositório do projeto **Good Pay**, uma aplicação web educacional desenvolvida para praticarmos e consolidarmos conhecimentos de **HTML**, **CSS**, **JavaScript**, além de técnicas modernas de **deploy com Firebase Hosting**, **autenticação com Firebase Authentication** e **banco de dados com Firestore**.
 
 ---
