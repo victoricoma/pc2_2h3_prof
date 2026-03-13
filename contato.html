@@ -10,6 +10,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap"
         rel="stylesheet">
 </head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .formulario {
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #6FCB9F;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+</style>
 
 <body style="font-family: Montserrat;">
     <header>
@@ -27,22 +43,27 @@
     </header>
     <main>
         <form action="">
-            <p>
-                <label for="nome">Nome: </label>
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
-            </p>
-            <p>
-                <label for="email">E-mail: </label>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail...">
-            </p>
-            <p>
-                <label for="mensagem">Mensagem: </label><br />
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"
-                    placeholder="Digite sua mensagem..."></textarea>
-            </p>
-            <p>
-                <input type="submit" value="Enviar">
-            </p>
+            <div class="formulario">
+                <p>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+                </p>
+                <p>
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail...">
+                </p>
+            </div>
+            <div class="formulario">
+                <p>
+                    <label for="mensagem">Mensagem: </label><br />
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                        placeholder="Digite sua mensagem..."></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </div>
+
         </form>
     </main>
     <footer>
@@ -50,7 +71,7 @@
             <tr>
                 <td>Atualizado em março de 2026</td>
                 <td>Direitos reservados ao 2H3</td>
-                <td>Etec Matão,  Av. Cesário Motta, 644 Centro Matão - SP</td>
+                <td>Etec Matão, Av. Cesário Motta, 644 Centro Matão - SP</td>
             </tr>
         </table>
     </footer>
